@@ -1,0 +1,77 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vsp
+*.vspx
+*.sap
+.vscode/
+.idea/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Dd]ebugPublic/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+
+# Publish
+PublishScripts/
+*.pubxml
+*.pubxml.user
+*.publishproj
+PublishProfiles/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+!**/[Pp]ackages/build/
+project.lock.json
+.nuget/
+
+# Test results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+
+# Caches / profiling
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.ionide/
+*.VisualState.xml
+*.dbmdl
+*.pdb
+*.ilk
+*.log
+*.tmp
+*.cache
+~$*
+
+# Local config / secrets
+appsettings.Development.json
+*.secrets.json
+
+# Local DBs
+App_Data/*.mdf
+App_Data/*.ldf
+App_Data/*.sdf
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Subversion leftovers
+.svn/
